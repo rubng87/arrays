@@ -12,3 +12,7 @@ console.log(arrayFrutas.length);
 //para acceder a cada eemento utilizamos su indice
 //que empieza a contar desde 0
 console.log(arrayFrutas[2]);
+console.log(arrayFrutas.at(-1));
+
+let arrayFrutasToString = arrayFrutas.toString()
+console.log(arrayFrutasToString);
