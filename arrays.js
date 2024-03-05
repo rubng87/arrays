@@ -9,7 +9,7 @@ console.log(array1.length);
 //length <-- para contar los elementos
 console.log(arrayFrutas.length);
 
-//para acceder a cada eemento utilizamos su indice
+//para acceder a cada elemento utilizamos su indice
 //que empieza a contar desde 0
 console.log(arrayFrutas[3]);
 console.log(arrayFrutas.at(-1));
