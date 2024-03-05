@@ -59,3 +59,12 @@ console.log(arrayFrutas);
 console.log(arrayFrutas.includes("uva"));
 //indexOF <-- te dice en la posición donde está
 console.log(arrayFrutas.indexOf("mango"));
+
+//slice <-- para cortar desde donde le digas
+// let arrayFrutas3 = arrayFrutas.slice(1,3)
+// console.log(arrayFrutas3);
+
+//splice <-- te lo corta donde e digas
+let resultdoSplice = arrayFrutas.splice(1,3)
+console.log(resultdoSplice);
+console.log(arrayFrutas);
