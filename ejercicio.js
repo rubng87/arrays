@@ -3,16 +3,19 @@
 
 // 1=========================
 
-let total=0,arrayNumeros1 = [4, 5, 3, 8, 2, 7, 1, 6];
-for(let i = 0; i < arrayNumeros1.length; i++) total+=arrayNumeros1[i];
-console.log(total);
+let suma=0,arrayNumeros1 = [4, 5, 3, 8, 2, 7, 1, 6];
+for(let i = 0; i < arrayNumeros1.length; i++) suma+=arrayNumeros1[i];
+console.log(suma);
 
-let total2=0,arrayNumeros2 = [4, 2, 7, 1, 6];
-for(let i = 0; i < arrayNumeros2.length; i++) total+=arrayNumeros2[i];
-console.log(total);
+let suma2=0,arrayNumeros2 = [4, 2, 7, 1, 6];
+for(let i = 0; i < arrayNumeros2.length; i++) suma2+=arrayNumeros2[i];
+console.log(suma2);
 
 
 // 2=========================
 
-console.log(arrayNumeros1.length);
 arrayNumeros1.length
+console.log(arrayNumeros1.length);
+
+
+
