@@ -14,8 +14,13 @@ console.log(suma2);
 
 // 2=========================
 
-arrayNumeros1.length
-console.log(arrayNumeros1.length);
+arrayNumeros1.length 
+
+
+//5 
+
+let arrayNombres1 = ["Federico", "Kayen", "Lucas", "Monica", "Nicolas", "Ricardo", "Sara", "Stephanie", "Yahved"]
+let arrayNombres2 = ["Clint", "Robert", "James", "Anne", "Ingrid", "John", "Patricia", "Marie"]
 
 
 
