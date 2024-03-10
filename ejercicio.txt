@@ -18,7 +18,7 @@ let arrayNumeros2 = [4, 2, 7, 1, 6]
 // 3) Encontrar los valores maximo y mi­nimo
 
 
-// 4) Sumar los valores con I­ndice par y restar los impares
+// 4) Sumar los valores con Indice par y restar los impares
 
 
 // Hay que mostrar por consola cada resultado
