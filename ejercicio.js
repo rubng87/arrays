@@ -96,7 +96,7 @@ console.log("El minimo valor del primer array es:", minimoValor2);
 
 let resultadoArrayNumeros1 = 0;
 for (let i = 0; i < arrayNumeros1.length; i++) {
-    if (i % 2 === 0) { // Si el índice es par
+    if (i % 2 == 0) { // Si el índice es par
         resultadoArrayNumeros1 += arrayNumeros1[i]; // Sumar el valor
     } else { // Si el índice es impar
         resultadoArrayNumeros1 -= arrayNumeros1[i]; // Restar el valor
@@ -111,7 +111,7 @@ console.log(resultadoArrayNumeros1);
 
 let resultadoArrayNumeros2 = 0;
 for (let i = 0; i < arrayNumeros2.length; i++) {
-    if (i % 2 === 0) { // Si el índice es par
+    if (i % 2 == 0) { // Si el índice es par
         resultadoArrayNumeros2 += arrayNumeros2[i]; // Sumar el valor
     } else { // Si el índice es impar
         resultadoArrayNumeros2 -= arrayNumeros2[i]; // Restar el valor
@@ -186,8 +186,8 @@ for (let i = 1; i < arrayNombres1.length; i++) {
     if (nombre.length < varTextoMasCorto.length) {
         varTextoMasCorto = nombre;
         arrayTextosMasCorto = [nombre];
-    } else if (nombre.length === varTextoMasCorto.length) {
-        arrayTextosMasCorto.push(nombre);
+    } else if (nombre.length == varTextoMasCorto.length) {
+        arrayTextosMasCorto.push(nombre); // Agregar al array si tiene la misma longitud
     }
 }
 
@@ -210,7 +210,7 @@ for (let i = 1; i < arrayNombres2.length; i++) {
         varTextoMasCorto2 = nombre;
         arrayTextosMasCortos2 = [nombre];
     } else if (nombre.length === varTextoMasCorto2.length) {
-        arrayTextosMasCortos2.push(nombre);
+        arrayTextosMasCortos2.push(nombre); // Agregar al array si tiene la misma longitud
     }
 }
 
@@ -295,8 +295,8 @@ let arrayMixto = ["Marie", 24, "Pol", 18, "Judith", 22, "Eva", 28]
 
 let arrayBidimensional = [];
 
-// Iterar sobre arrayMixto con un incremento de 2 en cada iteración para agrupar elementos
-for (let i = 0; i < arrayMixto.length; i += 2) {
+
+for (let i = 0; i < arrayMixto.length; i += 2) {// Iterar sobre arrayMixto con un incremento de 2 en cada iteración para agrupar elementos
     let subArray = [arrayMixto[i], arrayMixto[i + 1]]; // Crear un subarray con dos elementos
     arrayBidimensional.push(subArray); // Agregar el subarray al array bidimensional
 }
@@ -316,7 +316,7 @@ let sumaTotal = 0;
 // Iterar sobre cada subarray
 for (let i = 0; i < arrayBidimensional.length; i++) {
     let subArray = arrayBidimensional[i];
-    sumaTotal += subArray[1]; // Sumar el valor numérico en el subarray
+    sumaTotal += subArray[1]; // Sumar el valor al subarray
 }
 
 console.log("La suma total de los valores numéricos es:", sumaTotal);
@@ -367,11 +367,11 @@ arrayBidimensional = [["Marie", 24], ["Pol", 18], ["Judith", 22], ["Eva", 28]];
 let sumaPares = 0;
 let restaImpares = 0;
 
-// Iteramos sobre cada subarray
+
 for (let i = 0; i < arrayBidimensional.length; i++) {
     let numero = arrayBidimensional[i][1]; // Obtenemos el número del subarray
     
-    if (i % 2 === 0) { // Si el indice es Par Suma
+    if (i % 2 == 0) { // Si el indice es Par Suma
         sumaPares += numero;
     } else { // Si el índice es Impar restamos
         restaImpares -= numero;
